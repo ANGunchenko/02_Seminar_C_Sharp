@@ -5,16 +5,42 @@
 
 
 Console.Clear();
-int M = InputNumber("Введите число N: ");
-Number(M);
+int M = InputNumber("Введите число M: ");
+int N = InputNumber("Введите число N: ");
 
-void Number(int n)
+if (!Merge(N, M))
 {
-    if (n==0)
+    Swap();
+}
+Number(N,M);
+// System.Console.WriteLine($"{M}, {N}");
+
+bool Merge(int n,int m) 
+{
+    if(n>m)
+    return true;
+    else
+    return false;
+}
+
+void Swap()
+{
+    int temp=N;
+    N=M;
+    M=temp;
+// 	int temp = n;
+// 	n = m; 
+// 	m = temp;
+// System.Console.WriteLine($"{m}, {n}");
+}
+
+void Number(int n,int m)
+{
+    if (n==m-1)
     {
         return;
     }
- Number(n-1);
+ Number(n-1,m);
  System.Console.Write($" {n};");
 }
 
