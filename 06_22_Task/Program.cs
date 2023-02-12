@@ -3,6 +3,8 @@
 
 
 
+Console.Clear();
+
 int num_1 = inputNumber("Введите 1-ое число: ");
 int num_2 = inputNumber("Введите 2-ое число: ");
 int num_3 = inputNumber("Введите 3-ое число: ");

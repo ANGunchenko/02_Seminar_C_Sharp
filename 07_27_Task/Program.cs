@@ -4,6 +4,8 @@
 // 1 2 3 4
 // 2 3 4 5
 
+
+
 Console.Clear();
 int m = inputNumber("Введите значение m");
 int n = inputNumber("Введите значение n");

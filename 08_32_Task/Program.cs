@@ -2,6 +2,8 @@
 
 
 
+Console.Clear();
+
 const int M = 5;
 const int N = 4;
 int[,] myArray = FillArray(M, N);

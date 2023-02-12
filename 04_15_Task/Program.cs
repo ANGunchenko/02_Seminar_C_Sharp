@@ -3,6 +3,8 @@
 
 
 
+Console.Clear();
+
 System.Console.WriteLine("Введите размер массива");
 int arrLenght = inputNumber();
 int[] arr = Auto(arrLenght);

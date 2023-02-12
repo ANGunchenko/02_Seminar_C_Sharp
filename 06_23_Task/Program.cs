@@ -4,6 +4,9 @@
 // 2  -> 10
 
 
+
+Console.Clear();
+
 int num = inputNumber("Ведите число: ");
 
 func(num);

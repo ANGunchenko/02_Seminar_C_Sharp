@@ -4,6 +4,8 @@
 
 
 
+Console.Clear();
+
 int[] arr = Generation();//{ -4, -8, 8, 2 };
 Metod(arr);
 

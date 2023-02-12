@@ -4,6 +4,9 @@
 // 89126 -> 5
 
 
+
+Console.Clear();
+
 int inputNumber()
 {
     int number;

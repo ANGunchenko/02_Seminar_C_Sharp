@@ -4,7 +4,9 @@
 
 
 
-System.Console.WriteLine(Fact(inputNumber()));
+Console.Clear();
+
+Console.WriteLine(Fact(inputNumber()));
 
 int Fact(int n)
 {

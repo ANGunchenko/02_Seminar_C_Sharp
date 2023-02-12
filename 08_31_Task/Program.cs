@@ -7,6 +7,8 @@
 
 
 
+Console.Clear();
+
 int[,] array1 = GetArr();
 int[,] array2 = new int [array1.GetLength(0), array1.GetLength(1)];
 ReverseArr("Новый массив", array1, array2);

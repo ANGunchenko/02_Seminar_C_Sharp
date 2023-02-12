@@ -4,6 +4,9 @@
 // A (7,-5); B (1,-1) -> 7,21
 
 
+
+Console.Clear();
+
 int[] point = new int[4];
 System.Console.WriteLine("Введите x1: ");
 point[0] = Convert.ToInt32(Console.ReadLine());

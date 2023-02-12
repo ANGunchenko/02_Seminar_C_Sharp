@@ -12,6 +12,7 @@
 
 
 
+Console.Clear();
 
 int Counter(int[] array)
 {

@@ -2,6 +2,8 @@
 
 
 
+Console.Clear();
+
 int m = inputNumber("Введите значение м: ");
 int n = inputNumber("Введите значение n: ");
 PrintArray(FillArray(m, n, out int result));
